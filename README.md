@@ -43,3 +43,14 @@ The program stores flight data in a file named _flights.csv_ in the same folder 
 * Input validation is basic. You need to provide the correct data format.
 * Search is case insensitive for origin city.
 * Date search needs the same date format that was used when the flight was created.
+
+
+# I used three classes:
+* class Flights - saves data, checks that there are no more reservations than seats on the plane
+* class ReservationSystem - saves written data to a csv file.
+* public class Main - the main class that is responsible for everything, which allows other classes to workЮ
+
+# Сhallenges faced
+
+cause of I didn't listen to the last couple of classes, I had to face difficulties as a "writer"csv.file,
+since I didn't know how to make a csv from txt, I had to look on the Internet and ask my classmates
