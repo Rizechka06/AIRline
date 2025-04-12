@@ -1,0 +1,205 @@
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 1
+
+Flight number: AS225
+Origin: ASTANA
+Destination: ALMATY
+Date: 15.04.25
+Capacity: 166
+
+Flight added.
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 2
+
+Enter flight number: AS225
+
+Flight: AS225, ASTANA -> ALMATY, Date: 15.04.25, Capacity: 166, Booked: 0
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 3
+
+Enter flight number: AS225
+
+Seat booked.
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 2
+
+Enter flight number: AS225
+
+Flight: AS225, ASTANA -> ALMATY, Date: 15.04.25, Capacity: 166, Booked: 1
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 4
+
+Enter flight number: AS225
+
+Seat canceled.
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 8
+
+Flight: AS123, TOKYO -> PUSAN, Date: 21.04.25, Capacity: 125, Booked: 0
+Flight: QW222, BISHKEK -> OSH, Date: 13.04.25, Capacity: 100, Booked: 0
+Flight: AS225, ASTANA -> ALMATY, Date: 15.04.25, Capacity: 166, Booked: 0
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 9
+
+Enter origin city: OSH
+
+No flights found from OSH.
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 9
+
+Enter origin city: BISHKEK
+
+Flight: QW222, BISHKEK -> OSH, Date: 13.04.25, Capacity: 100, Booked: 0
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 10
+
+Enter date (same format as used when adding): 13.04.25
+
+Flight: QW222, BISHKEK -> OSH, Date: 13.04.25, Capacity: 100, Booked: 0
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 5
+
+Enter flight number to delete: AS225
+
+Flight deleted.
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 6
+
+Total flights: 2
+
+1. Add flight
+2. Show flight
+3. Book seat
+4. Cancel seat
+5. Delete flight
+6. Report
+7. Exit
+8. Show all flights
+9. Search by origin city
+10. Search by date
+
+Choice: 7
+
+Goodbye!
+
+Process finished with exit code 0
