@@ -55,7 +55,7 @@ class ReservationSystem {
             }
             fileScanner.close();
         } catch (FileNotFoundException e) {
-            // file may not exist - that's okay
+System.out.println("File not found");
         }
     }
 
