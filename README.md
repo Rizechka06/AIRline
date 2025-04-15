@@ -1,5 +1,5 @@
 # Airline Reservation System
-
+## description:
 This is a simple Java program that manages airline flight reservations. It allows you to:
 
 * **Add flights:** Create new flight entries with details like flight number, origin, destination, date, and capacity.
@@ -12,18 +12,76 @@ This is a simple Java program that manages airline flight reservations. It allow
 * **Search flights by origin:** Find flights departing from a specific city.
 * **Search flights by date:** Find flights on a specific date.
 
-## How to use
 
-1.  Save the code:\\ Save the Java code as _Main.java_, _Flight.java_, and _ReservationSystem.java_ in the same folder.
+# Objectives:
+The goal of this project is to create a simple flight reservation system. It allows users to add flights, book and cancel seats, view flight details, search for flights, and save all the information in a file. The main aim is to make it easy to manage flights using a text-based menu.
 
-2.  Compile the code:\\ Open your command line or terminal and navigate to the folder where you saved the files.
- Then, run the following command:
 
-3.  Run the program:\\ After compiling, run the program with this command:
+# Documentation:
 
-4.  Follow the menu:\\ The program will display a menu with options. 
-Enter the number corresponding to your choice and press Enter.
- The program will prompt you for any necessary information.
+#Flight Class (Represents a Single Flight)
+
+*Methods:*
+
+* **bookSeat()* — Books a seat if there are still available seats.
+
+* **cancelSeat()* — Cancels a seat booking if there's at least one booked seat.
+
+* **toString()* — Formats the flight as a CSV-compatible string for saving to a file.
+
+
+# ReservationSystem Class (Main System Logic)
+
+* **This class contains the main logic — it manages all flights and the operations on them.
+
+# loadFlights() — Loads flights from the flights.csv file.
+
+* **Reads the file line by line.*
+* **Splits each line by commas.*
+* **Creates a Flight object from the data and adds it to the flights list.*
+
+
+# saveFlights() — Saves all flights back to the file.
+
+* **Simply writes all Flight objects to the CSV file in string format.
+
+# showFlight() — Searches for a flight by number.
+
+* **Asks the user for a flight number.*
+
+* **If found, displays the flight info.*
+
+
+# bookSeat() — Books a seat.
+
+* **Finds the specified flight.*
+
+* **If seats are available, increases booked, saves, and prints "Seat booked".*
+
+# cancelSeat() — Cancels a seat booking.
+
+* **Similar to booking: finds the flight, decreases booked, and saves.
+
+# deleteFlight() — Deletes a flight.
+
+* **Removes the flight by number from the list and saves changes.
+
+# showReport() — Basic report.
+
+* **Just shows the total number of flights.
+
+# showAllFlights() — Displays all available flights.
+
+ # searchByOrigin() — Searches flights by departure city.
+
+ # searchByDate() — Searches flights by date.
+
+# Main Class
+
+* **Creates the reservation system object.*
+
+* **Loads flight data from file.*
+
 
 # Data storage
 
