@@ -19,56 +19,56 @@ The goal of this project is to create a simple flight reservation system. It all
 
 # Documentation:
 
-#Flight Class (Represents a Single Flight)
+# Flight Class (Represents a Single Flight)
 
 *Methods:*
 
-* **bookSeat()* — Books a seat if there are still available seats.
+* bookSeat() — Books a seat if there are still available seats.
 
-* **cancelSeat()* — Cancels a seat booking if there's at least one booked seat.
+* cancelSeat() — Cancels a seat booking if there's at least one booked seat.
 
-* **toString()* — Formats the flight as a CSV-compatible string for saving to a file.
+* toString() — Formats the flight as a CSV-compatible string for saving to a file.
 
 
 # ReservationSystem Class (Main System Logic)
 
-* **This class contains the main logic — it manages all flights and the operations on them.
+* This class contains the main logic — it manages all flights and the operations on them.
 
 # loadFlights() — Loads flights from the flights.csv file.
 
-* **Reads the file line by line.*
-* **Splits each line by commas.*
-* **Creates a Flight object from the data and adds it to the flights list.*
+* Reads the file line by line.*
+* Splits each line by commas.*
+* Creates a Flight object from the data and adds it to the flights list.*
 
 
 # saveFlights() — Saves all flights back to the file.
 
-* **Simply writes all Flight objects to the CSV file in string format.
+* Simply writes all Flight objects to the CSV file in string format.
 
 # showFlight() — Searches for a flight by number.
 
-* **Asks the user for a flight number.*
+* Asks the user for a flight number.*
 
-* **If found, displays the flight info.*
+* If found, displays the flight info.*
 
 
 # bookSeat() — Books a seat.
 
-* **Finds the specified flight.*
+* Finds the specified flight.*
 
-* **If seats are available, increases booked, saves, and prints "Seat booked".*
+* If seats are available, increases booked, saves, and prints "Seat booked".*
 
 # cancelSeat() — Cancels a seat booking.
 
-* **Similar to booking: finds the flight, decreases booked, and saves.
+* Similar to booking: finds the flight, decreases booked, and saves.
 
 # deleteFlight() — Deletes a flight.
 
-* **Removes the flight by number from the list and saves changes.
+* Removes the flight by number from the list and saves changes.
 
 # showReport() — Basic report.
 
-* **Just shows the total number of flights.
+* Just shows the total number of flights.
 
 # showAllFlights() — Displays all available flights.
 
@@ -78,9 +78,9 @@ The goal of this project is to create a simple flight reservation system. It all
 
 # Main Class
 
-* **Creates the reservation system object.*
+* Creates the reservation system object.*
 
-* **Loads flight data from file.*
+* Loads flight data from file.*
 
 
 # Data storage
