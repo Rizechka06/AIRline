@@ -19,7 +19,7 @@ The goal of this project is to create a simple flight reservation system. It all
 
 # Documentation:
 
-# Flight Class (Represents a Single Flight)
+* Flight Class (Represents a Single Flight)
 
 *Methods:*
 
